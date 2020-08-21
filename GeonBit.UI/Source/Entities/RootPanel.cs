@@ -15,6 +15,8 @@ using System.Collections.Generic;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// A special panel used as the root panel that covers the entire screen.
     /// This panel is used internally to serve as the constant root entity in the entities tree.
@@ -69,7 +71,7 @@ namespace GeonBit.UI.Entities
         /// Draw this entity and its children.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to use for drawing.</param>
-        override public void Draw(SpriteBatch spriteBatch)
+        override public void Draw(ISpriteBatchWrapper spriteBatch)
         {
             // if not visible skip
             if (!Visible)

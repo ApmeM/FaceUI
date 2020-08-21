@@ -21,6 +21,8 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// A sub-class of the slider entity, with graphics more fitting for a progress bar or things like hp bar etc.
     /// Behaves the same as a slider, if you want it to be for display only (and not changeable by user), simple set Locked = true.
@@ -116,7 +118,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // get progressbar frame width
             float progressbarFrameWidth = Resources.ProgressBarData.FrameWidth;

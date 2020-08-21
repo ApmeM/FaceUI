@@ -13,6 +13,8 @@ using GeonBit.UI.DataTypes;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// Different panel textures you can use.
     /// </summary>
@@ -109,7 +111,7 @@ namespace GeonBit.UI.Entities
         /// Draw this panel.
         /// </summary>
         /// <param name="spriteBatch">Spritebatch to use when drawing this panel.</param>
-        public override void Draw(SpriteBatch spriteBatch)
+        public override void Draw(ISpriteBatchWrapper spriteBatch)
         {
             // adjust height automatically
             if (AdjustHeightAutomatically && Visible)
@@ -205,7 +207,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // draw panel itself, but only if got style
             if (_skin != PanelSkin.None)

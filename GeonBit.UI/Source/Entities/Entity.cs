@@ -20,6 +20,8 @@ using GeonBit.UI.DataTypes;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// GeonBit.UI.Entities contains all the UI elements you can create and use in your layouts.
     /// </summary>
@@ -1134,7 +1136,7 @@ namespace GeonBit.UI.Entities
         /// Draw this entity and its children.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to use for drawing.</param>
-        virtual public void Draw(SpriteBatch spriteBatch)
+        virtual public void Draw(ISpriteBatchWrapper spriteBatch)
         {
             // if not visible skip
             if (!Visible)
@@ -1188,7 +1190,7 @@ namespace GeonBit.UI.Entities
         /// Draw debug stuff for this entity.
         /// </summary>
         /// <param name="spriteBatch">Spritebatch to use for drawing.</param>
-        protected virtual void DrawDebugStuff(SpriteBatch spriteBatch)
+        protected virtual void DrawDebugStuff(ISpriteBatchWrapper spriteBatch)
         {
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied);
 
@@ -1233,7 +1235,7 @@ namespace GeonBit.UI.Entities
         /// Draw all children.
         /// </summary>
         /// <param name="spriteBatch"></param>
-        protected virtual void DrawChildren(SpriteBatch spriteBatch)
+        protected virtual void DrawChildren(ISpriteBatchWrapper spriteBatch)
         {
             // do stuff before drawing children
             BeforeDrawChildren(spriteBatch);
@@ -1310,7 +1312,7 @@ namespace GeonBit.UI.Entities
         /// Called before drawing child entities of this entity.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch used to draw entities.</param>
-        protected virtual void BeforeDrawChildren(SpriteBatch spriteBatch)
+        protected virtual void BeforeDrawChildren(ISpriteBatchWrapper spriteBatch)
         {
         }
 
@@ -1318,7 +1320,7 @@ namespace GeonBit.UI.Entities
         /// Called after drawing child entities of this entity.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch used to draw entities.</param>
-        protected virtual void AfterDrawChildren(SpriteBatch spriteBatch)
+        protected virtual void AfterDrawChildren(ISpriteBatchWrapper spriteBatch)
         {
         }
 
@@ -1326,7 +1328,7 @@ namespace GeonBit.UI.Entities
         /// Draw entity shadow (if defined shadow).
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
-        virtual protected void DrawEntityShadow(SpriteBatch spriteBatch)
+        virtual protected void DrawEntityShadow(ISpriteBatchWrapper spriteBatch)
         {
             // store current 'is-dirty' flag, because it changes internally while drawing shadow
             bool isDirty = _isDirty;
@@ -1384,7 +1386,7 @@ namespace GeonBit.UI.Entities
         /// Draw entity outline.
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
-        virtual protected void DrawEntityOutline(SpriteBatch spriteBatch)
+        virtual protected void DrawEntityOutline(ISpriteBatchWrapper spriteBatch)
         {
             // get outline width and if 0 return
             int outlineWidth = OutlineWidth;
@@ -1438,7 +1440,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        virtual protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        virtual protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
         }
 
@@ -1446,7 +1448,7 @@ namespace GeonBit.UI.Entities
         /// Called every frame after drawing is done.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
-        virtual protected void OnAfterDraw(SpriteBatch spriteBatch)
+        virtual protected void OnAfterDraw(ISpriteBatchWrapper spriteBatch)
         {
             AfterDraw?.Invoke(this);
             UserInterface.Active.AfterDraw?.Invoke(this);
@@ -1456,7 +1458,7 @@ namespace GeonBit.UI.Entities
         /// Called every frame before drawing is done.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
-        virtual protected void OnBeforeDraw(SpriteBatch spriteBatch)
+        virtual protected void OnBeforeDraw(ISpriteBatchWrapper spriteBatch)
         {
             BeforeDraw?.Invoke(this);
             UserInterface.Active.BeforeDraw?.Invoke(this);

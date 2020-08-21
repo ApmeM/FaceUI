@@ -15,6 +15,8 @@ using System.Text;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// Hold style changes instructions for rich paragraphs.
     /// </summary>
@@ -322,7 +324,7 @@ namespace GeonBit.UI.Entities
         /// Draw entity outline. Note: in paragraph its a special case and we implement it inside the DrawEntity function.
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
-        override protected void DrawEntityOutline(SpriteBatch spriteBatch)
+        override protected void DrawEntityOutline(ISpriteBatchWrapper spriteBatch)
         {
         }
 
@@ -331,7 +333,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // update processed text if needed
             if (_needUpdateStyleInstructions)

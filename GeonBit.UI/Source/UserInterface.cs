@@ -18,6 +18,8 @@ using System.Xml.Serialization;
 
 namespace GeonBit.UI
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// GeonBit.UI is part of the GeonBit project, and provide a simple yet extensive UI framework for MonoGame based projects.
     /// This is the main GeonBit.UI namespace. It contains the UserInterface manager and other important helpers.
@@ -311,6 +313,8 @@ namespace GeonBit.UI
         // current tooltip target entity (eg entity we point on with tooltip).
         Entity _tooltipTargetEntity;
 
+        readonly DefaultSpriteBatchWrapper _defaultSpriteBatchWrapper = new DefaultSpriteBatchWrapper();
+
         /// <summary>
         /// How long to wait before showing tooltip texts.
         /// </summary>
@@ -470,6 +474,16 @@ namespace GeonBit.UI
         /// <param name="spriteBatch">SpriteBatch to draw the cursor.</param>
         public void DrawCursor(SpriteBatch spriteBatch)
         {
+            this._defaultSpriteBatchWrapper.Spritebatch = spriteBatch;
+            this.DrawCursor(this._defaultSpriteBatchWrapper);
+        }
+
+        /// <summary>
+        /// Draw the cursor.
+        /// </summary>
+        /// <param name="spriteBatch">SpriteBatch to draw the cursor.</param>
+        public void DrawCursor(ISpriteBatchWrapper spriteBatch)
+        {
             // start drawing for cursor
             spriteBatch.Begin(SpriteSortMode.Deferred, BlendState, SamplerState, DepthStencilState.None, RasterizerState.CullCounterClockwise);
 
@@ -626,6 +640,18 @@ namespace GeonBit.UI
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
         public void Draw(SpriteBatch spriteBatch)
         {
+            this._defaultSpriteBatchWrapper.Spritebatch = spriteBatch;
+            this.Draw(this._defaultSpriteBatchWrapper);
+        }
+
+        /// <summary>
+        /// Draw the UI. This function should be called from your Game 'Draw()' function.
+        /// Note: if UseRenderTarget is true, this function should be called FIRST in your draw function.
+        /// If UseRenderTarget is false, this function should be called LAST in your draw function.
+        /// </summary>
+        /// <param name="spriteBatch">SpriteBatch to draw on.</param>
+        public void Draw(ISpriteBatchWrapper spriteBatch)
+        {
             int newScreenWidth = spriteBatch.GraphicsDevice.Viewport.Width;
             int newScreenHeight = spriteBatch.GraphicsDevice.Viewport.Height;
 
@@ -683,6 +709,17 @@ namespace GeonBit.UI
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         public void DrawMainRenderTarget(SpriteBatch spriteBatch)
+        {
+            this._defaultSpriteBatchWrapper.Spritebatch = spriteBatch;
+            this.DrawMainRenderTarget(this._defaultSpriteBatchWrapper);
+        }
+
+        /// <summary>
+        /// Finalize the draw frame and draw all the UI on screen.
+        /// This function only works if we are in UseRenderTarget mode.
+        /// </summary>
+        /// <param name="spriteBatch">Sprite batch to draw on.</param>
+        public void DrawMainRenderTarget(ISpriteBatchWrapper spriteBatch)
         {
             // draw the main render target
             if (RenderTarget != null && !RenderTarget.IsDisposed)

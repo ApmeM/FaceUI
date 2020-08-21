@@ -12,6 +12,8 @@ using System.Collections.Generic;
 
 namespace GeonBit.UI
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// Helper class with drawing-related functionality.
     /// </summary>
@@ -118,7 +120,7 @@ namespace GeonBit.UI
         /// <param name="color">Optional color tint.</param>
         /// <param name="scale">Optional scale factor.</param>
         /// <param name="sourceRect">Optional source rectangle to use.</param>
-        public virtual void DrawImage(SpriteBatch spriteBatch, Texture2D texture, Rectangle destination, Color? color = null, float scale = 1f, Rectangle? sourceRect = null)
+        public virtual void DrawImage(ISpriteBatchWrapper spriteBatch, Texture2D texture, Rectangle destination, Color? color = null, float scale = 1f, Rectangle? sourceRect = null)
         {
             // default color
             color = FixColorOpacity(color);
@@ -144,7 +146,7 @@ namespace GeonBit.UI
         /// <param name="scale">Optional scale factor.</param>
         /// <param name="color">Optional color tint.</param>
         /// <param name="frameScale">Optional scale factor for the frame parts.</param>
-        public virtual void DrawSurface(SpriteBatch spriteBatch, Texture2D texture, Rectangle destination, Vector2 textureFrameWidth, float scale = 1f, Color? color = null, float frameScale = 1f)
+        public virtual void DrawSurface(ISpriteBatchWrapper spriteBatch, Texture2D texture, Rectangle destination, Vector2 textureFrameWidth, float scale = 1f, Color? color = null, float frameScale = 1f)
         {
             // default color
             color = FixColorOpacity(color);
@@ -378,7 +380,7 @@ namespace GeonBit.UI
         /// <param name="frameWidth">Frame width in percents relative to texture file size. For example, 0.1 means the frame takes 10% of the texture file.</param>
         /// <param name="color">Optional tint color to draw texture with.</param>
         /// <param name="frameScale">Optional scale for the frame part.</param>
-        public virtual void DrawSurfaceHorizontal(SpriteBatch spriteBatch, Texture2D texture, Rectangle destination, float frameWidth, Color? color = null, float frameScale = 1f)
+        public virtual void DrawSurfaceHorizontal(ISpriteBatchWrapper spriteBatch, Texture2D texture, Rectangle destination, float frameWidth, Color? color = null, float frameScale = 1f)
         {
             // default color
             color = FixColorOpacity(color);
@@ -461,7 +463,7 @@ namespace GeonBit.UI
         /// <param name="frameWidth">Frame width in percents relative to texture file size. For example, 0.1 means the frame takes 10% of the texture file.</param>
         /// <param name="color">Optional tint color to draw texture with.</param>
         /// <param name="frameScale">Optional scale for the frame part.</param>
-        public virtual void DrawSurfaceVertical(SpriteBatch spriteBatch, Texture2D texture, Rectangle destination, float frameWidth, Color? color = null, float frameScale = 1f)
+        public virtual void DrawSurfaceVertical(ISpriteBatchWrapper spriteBatch, Texture2D texture, Rectangle destination, float frameWidth, Color? color = null, float frameScale = 1f)
         {
             // default color
             color = FixColorOpacity(color);
@@ -540,7 +542,7 @@ namespace GeonBit.UI
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
         /// <param name="isDisabled">If true, will use the greyscale 'disabled' effect.</param>
-        public virtual void StartDraw(SpriteBatch spriteBatch, bool isDisabled)
+        public virtual void StartDraw(ISpriteBatchWrapper spriteBatch, bool isDisabled)
         {
             // start drawing
             spriteBatch.Begin(SpriteSortMode.Deferred, UserInterface.Active.BlendState, UserInterface.Active.SamplerState,
@@ -555,7 +557,7 @@ namespace GeonBit.UI
         /// Start drawing on a given SpriteBatch, but only draw colored Silhouette of the texture.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
-        public virtual void StartDrawSilhouette(SpriteBatch spriteBatch)
+        public virtual void StartDrawSilhouette(ISpriteBatchWrapper spriteBatch)
         {
             // start drawing silhouette
             spriteBatch.Begin(SpriteSortMode.Deferred, UserInterface.Active.BlendState, UserInterface.Active.SamplerState,
@@ -569,7 +571,7 @@ namespace GeonBit.UI
         /// Update the current rendering target.
         /// </summary>
         /// <param name="spriteBatch">Current spritebatch we are using.</param>
-        protected virtual void UpdateRenderTarget(SpriteBatch spriteBatch)
+        protected virtual void UpdateRenderTarget(ISpriteBatchWrapper spriteBatch)
         {
             // get current render target
             RenderTarget2D newRenderTarget = null;
@@ -594,7 +596,7 @@ namespace GeonBit.UI
         /// Finish drawing on a given SpriteBatch
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch to draw on.</param>
-        public virtual void EndDraw(SpriteBatch spriteBatch)
+        public virtual void EndDraw(ISpriteBatchWrapper spriteBatch)
         {
             spriteBatch.End();
         }

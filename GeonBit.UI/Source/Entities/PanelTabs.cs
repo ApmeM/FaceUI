@@ -15,6 +15,8 @@ using GeonBit.UI.DataTypes;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>Contains the button and panel of a single tab in the PanelTabs.</summary>
     public class TabData
     {
@@ -170,7 +172,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // negate parent's padding
             _internalRoot.Padding = -Parent.Padding;

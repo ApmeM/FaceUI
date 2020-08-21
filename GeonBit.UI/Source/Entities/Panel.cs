@@ -21,6 +21,8 @@ using GeonBit.UI.DataTypes;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// How to treat entities that overflow panel boundaries.
     /// </summary>
@@ -181,7 +183,7 @@ namespace GeonBit.UI.Entities
         /// Called before drawing child entities of this entity.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch used to draw entities.</param>
-        protected override void BeforeDrawChildren(SpriteBatch spriteBatch)
+        protected override void BeforeDrawChildren(ISpriteBatchWrapper spriteBatch)
         {
             // if overflow mode is simply overflow, dispose render target if such exist
             if (_overflowMode == PanelOverflowBehavior.Overflow)
@@ -216,7 +218,7 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Update panel's render target.
         /// </summary>
-        private void UpdatePanelRenderTarget(SpriteBatch spriteBatch)
+        private void UpdatePanelRenderTarget(ISpriteBatchWrapper spriteBatch)
         {
             // create the render target for this panel
             Rectangle targetRect = GetRenderTargetRect();
@@ -294,7 +296,7 @@ namespace GeonBit.UI.Entities
         /// Called after drawing child entities of this entity.
         /// </summary>
         /// <param name="spriteBatch">SpriteBatch used to draw entities.</param>
-        protected override void AfterDrawChildren(SpriteBatch spriteBatch)
+        protected override void AfterDrawChildren(ISpriteBatchWrapper spriteBatch)
         {
             // if overflow mode is simply overflow, do nothing.
             if (_overflowMode == PanelOverflowBehavior.Overflow)

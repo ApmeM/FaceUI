@@ -11,6 +11,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
 
     /// <summary>
     /// Used internally as a scrollbar for lists, text boxes, etc..
@@ -117,7 +118,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // if needed, recalc max (but not if currently interacting with this object).
             if (UserInterface.Active.ActiveEntity != this)

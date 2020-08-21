@@ -14,6 +14,8 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// An horizontal line, used to separate between different sections of a panel or to emphasize headers.
     /// </summary>
@@ -65,7 +67,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // get line texture
             Texture2D texture = Resources.HorizontalLineTexture;

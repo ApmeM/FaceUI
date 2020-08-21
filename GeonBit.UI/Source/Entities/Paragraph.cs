@@ -20,6 +20,8 @@ using System.Text;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
+
     /// <summary>
     /// Font styles.
     /// </summary>
@@ -533,7 +535,7 @@ namespace GeonBit.UI.Entities
         /// Draw entity outline. Note: in paragraph its a special case and we implement it inside the DrawEntity function.
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
-        override protected void DrawEntityOutline(SpriteBatch spriteBatch)
+        override protected void DrawEntityOutline(ISpriteBatchWrapper spriteBatch)
         {
         }
 
@@ -542,7 +544,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             // update processed text if needed
             if (_processedText == null)
@@ -595,7 +597,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Spritebatch to use.</param>
         /// <param name="outlineWidth">Outline width.</param>
-        protected void DrawTextOutline(SpriteBatch spriteBatch, int outlineWidth)
+        protected void DrawTextOutline(ISpriteBatchWrapper spriteBatch, int outlineWidth)
         {
             // get outline color
             Color outlineColor = UserInterface.Active.DrawUtils.FixColorOpacity(OutlineColor);
@@ -613,7 +615,7 @@ namespace GeonBit.UI.Entities
         /// <param name="position">Text position.</param>
         /// <param name="outlineColor">Outline color.</param>
         /// <param name="origin">Text origin.</param>
-        protected void DrawTextOutline(SpriteBatch spriteBatch, string text, int outlineWidth, SpriteFont font, float scale, Vector2 position, Color outlineColor, Vector2 origin)
+        protected void DrawTextOutline(ISpriteBatchWrapper spriteBatch, string text, int outlineWidth, SpriteFont font, float scale, Vector2 position, Color outlineColor, Vector2 origin)
         {
             // for not-too-thick outline we render just two corners
             if (outlineWidth <= MaxOutlineWidthToOptimize)

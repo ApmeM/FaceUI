@@ -16,6 +16,7 @@ using System.Collections.Generic;
 
 namespace GeonBit.UI.Entities
 {
+    using GeonBit.UI.Utils;
 
     /// <summary>
     /// DropDown is just like a list, but it only shows the currently selected value unless clicked on (the list is
@@ -399,7 +400,7 @@ namespace GeonBit.UI.Entities
         /// </summary>
         /// <param name="spriteBatch">Sprite batch to draw on.</param>
         /// <param name="phase">The phase we are currently drawing.</param>
-        override protected void DrawEntity(SpriteBatch spriteBatch, DrawPhase phase)
+        override protected void DrawEntity(ISpriteBatchWrapper spriteBatch, DrawPhase phase)
         {
             if (SelectedIndex == -1 && _selectedTextParagraph.Text != _placeholderText)
             {
