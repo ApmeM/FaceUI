@@ -305,7 +305,10 @@ namespace GeonBit.UI.Entities
         /// </summary>
         override protected void DoOnMouseWheelScroll()
         {
-            Value = _value + MouseInput.MouseWheelChange * GetStepSize();
+            if (this._isMouseOver)
+            {
+                Value = _value + MouseInput.MouseWheelChange * GetStepSize();
+            }
         }
     }
 }
