@@ -12,6 +12,7 @@
 
 /reference:..\Libs\DataTypes\bin\DesktopGL\AnyCPU\Release\DataTypes.dll
 /reference:..\Libs\DataTypes\bin\DesktopGL\AnyCPU\Debug\DataTypes.dll
+/reference:..\..\..\bin\Debug\netstandard2.0\GeonBit.UI.dll
 
 #---------------------------------- Content ---------------------------------#
 
