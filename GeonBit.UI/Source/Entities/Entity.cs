@@ -307,7 +307,6 @@ namespace GeonBit.UI.Entities
         private uint _parentLastDestRectVersion = 0;
 
         /// <summary>Optional data you can attach to this entity and retrieve later (for example when handling events).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public object AttachedData = null;
 
         /// <summary>
@@ -348,91 +347,69 @@ namespace GeonBit.UI.Entities
         public static StyleSheet DefaultStyle = new StyleSheet();
 
         /// <summary>Callback to execute when mouse button is pressed over this entity (called once when button is pressed).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnMouseDown = null;
 
         /// <summary>Callback to execute when right mouse button is pressed over this entity (called once when button is pressed).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnRightMouseDown = null;
 
         /// <summary>Callback to execute when mouse button is released over this entity (called once when button is released).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnMouseReleased = null;
 
         /// <summary>Callback to execute every frame while mouse button is pressed over the entity.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback WhileMouseDown = null;
 
         /// <summary>Callback to execute every frame while right mouse button is pressed over the entity.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback WhileRightMouseDown = null;
 
         /// <summary>Callback to execute every frame while mouse is hovering over the entity (not called while mouse button is down).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback WhileMouseHover = null;
 
         /// <summary>Callback to execute every frame while mouse is hovering over the entity, even if mouse is down.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback WhileMouseHoverOrDown = null;
 
         /// <summary>Callback to execute when user clicks on this entity (eg release mouse over it).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnClick = null;
 
         /// <summary>Callback to execute when user clicks on this entity with right mouse button (eg release mouse over it).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnRightClick = null;
 
         /// <summary>Callback to execute when entity value changes (relevant only for entities with value).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnValueChange = null;
 
         /// <summary>Callback to execute when mouse start hovering over this entity (eg enters its region).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnMouseEnter = null;
 
         /// <summary>Callback to execute when mouse stop hovering over this entity (eg leaves its region).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnMouseLeave = null;
 
         /// <summary>Callback to execute when mouse wheel scrolls and this entity is the active entity.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnMouseWheelScroll = null;
 
         /// <summary>Called when entity starts getting dragged (only if draggable).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnStartDrag = null;
 
         /// <summary>Called when entity stop getting dragged (only if draggable).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnStopDrag = null;
 
         /// <summary>Called every frame while the entity is being dragged.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback WhileDragging = null;
 
         /// <summary>Callback to execute every frame before this entity is rendered.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback BeforeDraw = null;
 
         /// <summary>Callback to execute every frame after this entity is rendered.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback AfterDraw = null;
 
         /// <summary>Callback to execute every frame before this entity updates.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback BeforeUpdate = null;
 
         /// <summary>Callback to execute every frame after this entity updates.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback AfterUpdate = null;
 
         /// <summary>Callback to execute every time the visibility of this entity changes (also invokes when parent becomes invisible / visible again).</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnVisiblityChange = null;
 
         /// <summary>Callback to execute every time this entity focus / unfocus.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnFocusChange = null;
 
         /// <summary>
@@ -462,7 +439,6 @@ namespace GeonBit.UI.Entities
         bool _isFocused = false;
 
         /// <summary>Does this entity or one of its children currently focused?</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public bool IsFocused
         {
             // get if focused
@@ -727,7 +703,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Current entity state (default / mouse hover / mouse down..).
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EntityState State
         {
             get { return _entityState; }
@@ -812,7 +787,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Extra space (in pixels) to reserve *after* this entity when using Auto Anchors.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Vector2 SpaceAfter
         {
             set { SetStyleProperty(StylePropertyIds.SpaceAfter, new StyleProperty(value)); }
@@ -822,7 +796,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Extra space (in pixels) to reserve *before* this entity when using Auto Anchors.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Vector2 SpaceBefore
         {
             set { SetStyleProperty(StylePropertyIds.SpaceBefore, new StyleProperty(value)); }
@@ -832,7 +805,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity fill color - this is just a sugarcoat to access the default fill color style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Color FillColor
         {
             set { SetStyleProperty(StylePropertyIds.FillColor, new StyleProperty(value), markAsDirty: false); }
@@ -842,7 +814,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity fill color opacity - this is just a sugarcoat to access the default fill color alpha style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public virtual byte Opacity
         {
             set
@@ -866,7 +837,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity outline color opacity - this is just a sugarcoat to access the default outline color alpha style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public byte OutlineOpacity
         {
             set
@@ -884,7 +854,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity padding - this is just a sugarcoat to access the default padding style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Vector2 Padding
         {
             set { SetStyleProperty(StylePropertyIds.Padding, new StyleProperty(value)); }
@@ -894,7 +863,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity shadow color - this is just a sugarcoat to access the default shadow color style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Color ShadowColor
         {
             set { SetStyleProperty(StylePropertyIds.ShadowColor, new StyleProperty(value), markAsDirty: false); }
@@ -904,7 +872,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity shadow scale - this is just a sugarcoat to access the default shadow scale style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public float ShadowScale
         {
             set { SetStyleProperty(StylePropertyIds.ShadowScale, new StyleProperty(value), markAsDirty: false); }
@@ -914,7 +881,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity shadow offset - this is just a sugarcoat to access the default shadow offset style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Vector2 ShadowOffset
         {
             set { SetStyleProperty(StylePropertyIds.ShadowOffset, new StyleProperty(value), markAsDirty: false); }
@@ -933,7 +899,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity outline color - this is just a sugarcoat to access the default outline color style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Color OutlineColor
         {
             set { SetStyleProperty(StylePropertyIds.OutlineColor, new StyleProperty(value), markAsDirty: false); }
@@ -943,7 +908,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Entity outline width - this is just a sugarcoat to access the default outline color style property.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public int OutlineWidth
         {
             set { SetStyleProperty(StylePropertyIds.OutlineWidth, new StyleProperty(value), markAsDirty: false); }

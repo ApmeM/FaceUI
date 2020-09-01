@@ -132,7 +132,6 @@ namespace GeonBit.UI.Entities
         public static int ArrowSize = 30;
 
         /// <summary>Special callback to execute when list size changes.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnListChange = null;
 
         /// <summary>

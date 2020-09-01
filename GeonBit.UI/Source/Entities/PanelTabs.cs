@@ -66,7 +66,6 @@ namespace GeonBit.UI.Entities
         public static StyleSheet DefaultButtonParagraphStyle = new StyleSheet();
 
         /// <summary>List of tabs data currently in panel tabs.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         private List<TabData> _tabs = new List<TabData>();
 
         /// <summary>A special internal panel to hold all the tab buttons.</summary>
@@ -79,7 +78,6 @@ namespace GeonBit.UI.Entities
         private Panel _internalRoot;
 
         /// <summary>Currently active tab.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         private TabData _activeTab = null;
 
         /// <summary>
@@ -197,7 +195,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Get the currently active tab.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public TabData ActiveTab
         {
             get { return _activeTab; }

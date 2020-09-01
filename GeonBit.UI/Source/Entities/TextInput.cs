@@ -306,7 +306,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Current scrollbar position.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public int ScrollPosition
         {
             get { return _scrollbar != null ? _scrollbar.Value : 0; }

@@ -63,7 +63,6 @@ namespace GeonBit.UI.Entities
         public float ItemsScale = 1f;
 
         /// <summary>Special callback to execute when list size changes.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public EventCallback OnListChange = null;
 
         /// <summary>
@@ -92,7 +91,7 @@ namespace GeonBit.UI.Entities
         /// Optional dictionary of list indexes you want to lock.
         /// Every item in this dictionary set to true will be locked and user won't be able to select it.
         /// </summary>
-        public SerializableDictionary<int, bool> LockedItems = new SerializableDictionary<int, bool>();
+        public Dictionary<int, bool> LockedItems = new Dictionary<int, bool>();
 
         // list of values
         List<string> _list = new List<string>();
@@ -463,7 +462,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Currently selected item value (or null if none is selected).
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public string SelectedValue
         {
             get { return _value; }
@@ -473,7 +471,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Currently selected item index (or -1 if none is selected).
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public int SelectedIndex
         {
             get { return _index; }
@@ -483,7 +480,6 @@ namespace GeonBit.UI.Entities
         /// <summary>
         /// Current scrollbar position.
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
         public int ScrollPosition
         {
             get { return _scrollbar.Value; }

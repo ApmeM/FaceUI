@@ -13,7 +13,6 @@ using Microsoft.Xna.Framework.Graphics;
 using GeonBit.UI.Entities;
 using Microsoft.Xna.Framework.Content;
 using System.Runtime.Serialization;
-using System.Xml.Serialization;
 
 
 namespace GeonBit.UI
@@ -758,82 +757,5 @@ namespace GeonBit.UI
             // return raw cursor pos
             return MouseInputProvider.MousePosition + addVector.Value;
         }
-
-        /// <summary>
-        /// Get xml serializer.
-        /// </summary>
-        /// <returns>XML serializer instance.</returns>
-        virtual protected XmlSerializer GetXmlSerializer()
-        {
-            return new XmlSerializer(Root.GetType(), Entity._serializableTypes.ToArray());
-        }
-
-        /// <summary>
-        /// Serialize the whole UI to stream.
-        /// Note: serialization have some limitation and things that will not be included in xml,
-        /// like even handlers. Please read docs carefuly to know what to expect.
-        /// </summary>
-        /// <param name="stream">Stream to serialize to.</param>
-        public void Serialize(System.IO.Stream stream)
-        {
-            var writer = GetXmlSerializer();
-            writer.Serialize(stream, Root);
-        }
-
-        /// <summary>
-        /// Deserialize the whole UI from stream.
-        /// Note: serialization have some limitation and things that will not be included in xml,
-        /// like even handlers. Please read docs carefuly to know what to expect.
-        /// </summary>
-        /// <param name="stream">Stream to deserialize from.</param>
-        public void Deserialize(System.IO.Stream stream)
-        {
-            // started deserializing..
-            _isDeserializing = true;
-
-            // do deserialize
-            try
-            {
-                var reader = GetXmlSerializer();
-                Root = (RootPanel)reader.Deserialize(stream);
-            }
-            // handle errors
-            catch
-            {
-                _isDeserializing = false;
-                throw;
-            }
-
-            // init after finish deserializing
-            _isDeserializing = false;
-            Root.InitAfterDeserialize();
-        }
-
-        /// <summary>
-        /// Serialize the whole UI to filename.
-        /// Note: serialization have some limitation and things that will not be included in xml,
-        /// like even handlers. Please read docs carefuly to know what to expect.
-        /// </summary>
-        /// <param name="path">Filename to serialize into.</param>
-        public void Serialize(string path)
-        {
-            System.IO.FileStream file = System.IO.File.Create(path);
-            Serialize(file);
-            file.Close();
-        }
-
-        /// <summary>
-        /// Deserialize the whole UI from filename.
-        /// Note: serialization have some limitation and things that will not be included in xml,
-        /// like even handlers. Please read docs carefuly to know what to expect.
-        /// </summary>
-        /// <param name="path">Filename to deserialize from.</param>
-        public void Deserialize(string path)
-        {
-            System.IO.FileStream file = System.IO.File.OpenRead(path);
-            Deserialize(file);
-            file.Close();
-        }
-
     }
 }

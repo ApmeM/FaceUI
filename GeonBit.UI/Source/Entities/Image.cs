@@ -49,7 +49,6 @@ namespace GeonBit.UI.Entities
         public Vector2 FrameWidth = Vector2.One * 0.15f;
 
         /// <summary>Texture to draw.</summary>
-        [System.Xml.Serialization.XmlIgnore]
         public Texture2D Texture;
 
         /// <summary>

@@ -12,8 +12,6 @@ namespace GeonBit.UI.DataTypes
     /// This class acts like a Union, eg we don't use all the fields.
     /// This is a waste of some memory, but we need it to be able to serialize / desrialize to XMLs.
     /// </summary>
-    [System.Xml.Serialization.XmlInclude(typeof(Color))]
-    [System.Xml.Serialization.XmlInclude(typeof(Vector2))]
     public struct StyleProperty
     {
         /// <summary>Color value.</summary>
@@ -27,27 +25,22 @@ namespace GeonBit.UI.DataTypes
 
         /// <summary>helper function to get / set color value.</summary>
         [ContentSerializerAttribute(Optional = true)]
-        [System.Xml.Serialization.XmlIgnore]
         public Color asColor { get { return _color != null ? (Color)_color : Color.White; } set { _color = value; } }
 
         /// <summary>helper function to get / set vector value.</summary>
         [ContentSerializerAttribute(Optional = true)]
-        [System.Xml.Serialization.XmlIgnore]
         public Vector2 asVector { get { return _vector != null ? (Vector2)_vector : Vector2.One; } set { _vector = value; } }
 
         /// <summary>helper function to get / set float value.</summary>
         [ContentSerializerAttribute(Optional = true)]
-        [System.Xml.Serialization.XmlIgnore]
         public float asFloat { get { return _float.Value; } set { _float = value; } }
 
         /// <summary>helper function to get / set int value.</summary>
         [ContentSerializerAttribute(Optional = true)]
-        [System.Xml.Serialization.XmlIgnore]
         public int asInt { get { return (int)_float.Value; } set { _float = value; } }
 
         /// <summary>helper function to get / set bool value.</summary>
         [ContentSerializerAttribute(Optional = true)]
-        [System.Xml.Serialization.XmlIgnore]
         public bool asBool { get { return _float.Value > 0f; } set { _float = value ? 1f : 0f; } }
 
         /// <summary>

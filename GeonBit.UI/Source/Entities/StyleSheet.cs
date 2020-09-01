@@ -19,7 +19,7 @@ namespace GeonBit.UI.Entities
     /// For example, stylesheet can define that when mouse hover over a paragraph, its text turns red.
     /// </summary>
     [System.Serializable]
-    public class StyleSheet : Utils.SerializableDictionary<string, StyleProperty>
+    public class StyleSheet : Dictionary<string, StyleProperty>
     {
         /// <summary>
         /// Static ctor.
