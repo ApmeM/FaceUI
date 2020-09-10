@@ -87,11 +87,14 @@
     <Compile Include="Source\Input\IMouseInput.cs" />
     <Compile Include="Source\Resources.cs" />
     <Compile Include="Source\UserInterface.cs" />
+    <Compile Include="Source\Utils\DefaultGraphicDeviceWrapper.cs" />
     <Compile Include="Source\Utils\DefaultSpriteBatchWrapper.cs" />
+    <Compile Include="Source\Utils\GraphicDeviceWrapper.cs" />
     <Compile Include="Source\Utils\ISpriteBatchWrapper.cs" />
     <Compile Include="Source\Utils\MessageBox.cs" />
     <Compile Include="Source\Utils\Forms.cs" />
     <Compile Include="Source\Utils\PanelsGrid.cs" />
+    <Compile Include="Source\Utils\PresentationParametersWrapper.cs" />
     <Compile Include="Source\Utils\SimpleFileMenu.cs" />
   </ItemGroup>
   <ItemGroup>

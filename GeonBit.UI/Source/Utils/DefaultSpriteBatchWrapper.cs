@@ -48,6 +48,6 @@
             this.Spritebatch.DrawString(spriteFont, text, position, color, rotation, origin, scalef, effects, layerDepth);
         }
 
-        public GraphicsDevice GraphicsDevice => this.Spritebatch.GraphicsDevice;
+        public GraphicDeviceWrapper GraphicsDevice { get; set; }
     }
 }

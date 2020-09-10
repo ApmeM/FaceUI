@@ -313,6 +313,7 @@ namespace GeonBit.UI
         Entity _tooltipTargetEntity;
 
         readonly DefaultSpriteBatchWrapper _defaultSpriteBatchWrapper = new DefaultSpriteBatchWrapper();
+        readonly DefaultGraphicDeviceWrapper _defaultGraphicDeviceWrapper = new DefaultGraphicDeviceWrapper();
 
         /// <summary>
         /// How long to wait before showing tooltip texts.
@@ -640,6 +641,8 @@ namespace GeonBit.UI
         public void Draw(SpriteBatch spriteBatch)
         {
             this._defaultSpriteBatchWrapper.Spritebatch = spriteBatch;
+            this._defaultSpriteBatchWrapper.GraphicsDevice = this._defaultGraphicDeviceWrapper;
+            this._defaultGraphicDeviceWrapper.GraphicDevice = spriteBatch.GraphicsDevice;
             this.Draw(this._defaultSpriteBatchWrapper);
         }
 

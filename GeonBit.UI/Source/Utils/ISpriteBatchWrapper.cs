@@ -52,6 +52,6 @@
         /// <summary>
         /// GraphicsDevice
         /// </summary>
-        GraphicsDevice GraphicsDevice { get; }
+        GraphicDeviceWrapper GraphicsDevice { get; }
     }
 }
