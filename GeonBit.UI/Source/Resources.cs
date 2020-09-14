@@ -23,7 +23,7 @@ namespace GeonBit.UI
     /// A class to get texture with index and constant path part.
     /// Used internally.
     /// </summary>
-    public class TexturesGetter<TEnum> where TEnum : IConvertible
+    public class TexturesGetter<TEnum>
     {
         // textures we already loaded
         Texture2D[] _loadedTextures;
@@ -109,11 +109,11 @@ namespace GeonBit.UI
             // icon type enum
             if (typeof(TEnum) == typeof(IconType))
             {
-                return e.ToString();
+                return Enum.GetName(typeof(TEnum), e);
             }
 
             // all other type of enums
-            return e.ToString().ToLowerInvariant();
+            return Enum.GetName(typeof(TEnum), e).ToLowerInvariant();
         }
 
         /// <summary>
@@ -282,7 +282,7 @@ namespace GeonBit.UI
             CursorsData = new CursorTextureData[Enum.GetValues(typeof(CursorType)).Length];
             foreach (CursorType cursor in Enum.GetValues(typeof(CursorType)))
             {
-                string cursorName = cursor.ToString().ToLowerInvariant();
+                string cursorName = Enum.GetName(typeof(CursorType), cursor).ToLowerInvariant();
                 CursorsData[(int)cursor] = content.Load<CursorTextureData>(_root + "textures/cursor_" + cursorName + "_md");
             }
 

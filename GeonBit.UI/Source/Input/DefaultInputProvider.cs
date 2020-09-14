@@ -116,7 +116,7 @@ namespace GeonBit.UI
             // get mouse wheel state
             int prevMouseWheel = MouseWheel;
             MouseWheel = _newMouseState.ScrollWheelValue;
-            MouseWheelChange = System.Math.Sign(MouseWheel - prevMouseWheel);
+            MouseWheelChange = System.Math.Sign((double)MouseWheel - prevMouseWheel);
 
             // update capslock state
             if (_newKeyboardState.IsKeyDown(Keys.CapsLock) && !_oldKeyboardState.IsKeyDown(Keys.CapsLock))

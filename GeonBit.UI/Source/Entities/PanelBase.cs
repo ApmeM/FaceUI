@@ -101,13 +101,6 @@ namespace GeonBit.UI.Entities
         }
 
         /// <summary>
-        /// Panel destructor.
-        /// </summary>
-        ~PanelBase()
-        {
-        }
-
-        /// <summary>
         /// Draw this panel.
         /// </summary>
         /// <param name="spriteBatch">Spritebatch to use when drawing this panel.</param>

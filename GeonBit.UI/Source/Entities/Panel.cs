@@ -153,14 +153,6 @@ namespace GeonBit.UI.Entities
         }
 
         /// <summary>
-        /// Panel destructor.
-        /// </summary>
-        ~Panel()
-        {
-            Dispose();
-        }
-
-        /// <summary>
         /// Dispose unmanaged resources related to this panel (render target).
         /// </summary>
         public void Dispose()

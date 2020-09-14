@@ -20,15 +20,6 @@ namespace GeonBit.UI
     using GeonBit.UI.Utils;
 
     /// <summary>
-    /// GeonBit.UI is part of the GeonBit project, and provide a simple yet extensive UI framework for MonoGame based projects.
-    /// This is the main GeonBit.UI namespace. It contains the UserInterface manager and other important helpers.
-    /// </summary>
-    [System.Runtime.CompilerServices.CompilerGenerated]
-    class NamespaceDoc
-    {
-    }
-
-    /// <summary>
     /// A callback function you can register on entity events, like on-click, on-mouse-leave, etc.
     /// </summary>
     /// <param name="entity">The entity instance the event came from.</param>
@@ -362,14 +353,6 @@ namespace GeonBit.UI
         public void Dispose()
         {
             DisposeRenderTarget();
-        }
-
-        /// <summary>
-        /// UserInterface destructor.
-        /// </summary>
-        ~UserInterface()
-        {
-            Dispose();
         }
 
         /// <summary>

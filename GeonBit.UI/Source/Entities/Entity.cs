@@ -23,14 +23,6 @@ namespace GeonBit.UI.Entities
     using GeonBit.UI.Utils;
 
     /// <summary>
-    /// GeonBit.UI.Entities contains all the UI elements you can create and use in your layouts.
-    /// </summary>
-    [System.Runtime.CompilerServices.CompilerGenerated]
-    class NamespaceDoc
-    {
-    }
-
-    /// <summary>
     /// Different draw phases of the entity.
     /// </summary>
     public enum DrawPhase
