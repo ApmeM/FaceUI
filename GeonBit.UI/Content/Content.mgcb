@@ -12,10 +12,10 @@
 
 /reference:..\Libs\DataTypes\bin\DesktopGL\AnyCPU\Release\DataTypes.dll
 /reference:..\Libs\DataTypes\bin\DesktopGL\AnyCPU\Debug\DataTypes.dll
-/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net472\GeonBit.UI.dll
-/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net472\LocomotorECS.dll
-/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net472\MyONez.dll
-/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net472\MyONez.PipelineImporter.dll
+/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net48\GeonBit.UI.dll
+/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net48\LocomotorECS.dll
+/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net48\MyONez.dll
+/reference:..\..\..\..\..\MyONez.PipelineImporter\bin\Debug\net48\MyONez.PipelineImporter.dll
 
 #---------------------------------- Content ---------------------------------#
 
