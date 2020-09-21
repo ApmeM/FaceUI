@@ -11,6 +11,7 @@ using Microsoft.Xna.Framework;
 
 namespace GeonBit.UI.Utils
 {
+    using GeonBit.UI.Entities;
 
     /// <summary>
     /// Helper class to generate message boxes and prompts.
@@ -32,17 +33,55 @@ namespace GeonBit.UI.Utils
             /// </summary>
             public Entities.Entity BackgroundFader;
 
+            public Entity Parent { get; set; }
+
+            public EventCallback OnShow { get; set; }
+            public EventCallback OnDone { get; set; }
+
             /// <summary>
             /// Hide / close the message box.
             /// </summary>
             public void Close()
             {
-                if (Panel.Parent != null)
+                if (this.Panel.Parent == null)
                 {
-                    Panel.RemoveFromParent();
-                    if (BackgroundFader != null) { BackgroundFader.RemoveFromParent(); }
-                    OpenedMsgBoxesCount--;
+                    return;
                 }
+
+                this.Panel.RemoveFromParent();
+                this.BackgroundFader?.RemoveFromParent();
+                OpenedMsgBoxesCount--;
+                this.OnDone?.Invoke(this.Panel);
+            }
+
+            public void Show()
+            {
+                if (this.Panel.Parent != null)
+                {
+                    return;
+                }
+
+                if (this.BackgroundFader != null)
+                {
+                    UserInterface.Active.AddEntity(this.BackgroundFader);
+                    this.BackgroundFader.OnClick = (b) =>
+                    {
+                        this.Close();
+                    };
+                }
+
+                if (this.Parent != null)
+                {
+                    this.Parent.AddChild(this.Panel);
+                }
+                else
+                {
+                    UserInterface.Active.AddEntity(this.Panel);
+                }
+
+                OpenedMsgBoxesCount++;
+
+                this.OnShow?.Invoke(this.Panel);
             }
         }
 
@@ -115,31 +154,32 @@ namespace GeonBit.UI.Utils
         /// <param name="onDone">Optional callback to call when this msgbox closes.</param>
         /// <param name="parent">Parent to add message box to (if not defined will use root)</param>
         /// <returns>Message box handle.</returns>
-        public static MessageBoxHandle ShowMsgBox(string header, string text, MsgBoxOption[] options, Entities.Entity[] extraEntities = null, Vector2? size = null, System.Action onDone = null, Entities.Entity parent = null)
+        public static MessageBoxHandle BuildMessageBox(string header, string text, MsgBoxOption[] options, Entities.Entity[] extraEntities = null, Vector2? size = null, Entities.Entity parent = null)
         {
             // object to return
             MessageBoxHandle ret = new MessageBoxHandle();
-
             // create panel for messagebox
-            size = size ?? new Vector2(500, -1);
+            size = size ?? DefaultMsgBoxSize;
             var panel = new Entities.Panel(size.Value);
             ret.Panel = panel;
-            panel.AddChild(new Entities.Header(header));
-            panel.AddChild(new Entities.HorizontalLine());
-            panel.AddChild(new Entities.RichParagraph(text));
+            if (!string.IsNullOrWhiteSpace(header))
+            {
+                panel.AddChild(new Entities.Header(header));
+                panel.AddChild(new Entities.HorizontalLine());
+            }
 
-            // add to opened boxes counter
-            OpenedMsgBoxesCount++;
+            if (!string.IsNullOrWhiteSpace(text))
+            {
+                panel.AddChild(new Entities.RichParagraph(text));
+            }
 
             // add rectangle to hide and lock background
-            Entities.ColoredRectangle fader = null;
             if (BackgroundFaderColor.A != 0)
             {
-                fader = new Entities.ColoredRectangle(Vector2.Zero, Entities.Anchor.Center);
+                var fader = new Entities.ColoredRectangle(Vector2.Zero, Entities.Anchor.Center);
                 fader.FillColor = new Color(0, 0, 0, 100);
                 fader.OutlineWidth = 0;
                 fader.ClickThrough = false;
-                UserInterface.Active.AddEntity(fader);
                 ret.BackgroundFader = fader;
             }
 
@@ -153,7 +193,7 @@ namespace GeonBit.UI.Utils
             }
 
             // add bottom buttons panel
-            var buttonsPanel = new Entities.Panel(new Vector2(0, 70), 
+            var buttonsPanel = new Entities.Panel(new Vector2(0, 70),
                 Entities.PanelSkin.None, size.Value.Y == -1 ? Entities.Anchor.Auto : Entities.Anchor.BottomCenter);
             buttonsPanel.Padding = Vector2.Zero;
             panel.AddChild(buttonsPanel);
@@ -169,18 +209,10 @@ namespace GeonBit.UI.Utils
                 // set click event
                 button.OnClick += (Entities.Entity ent) =>
                 {
-                    // if need to close message box after clicking this button, close it:
+                     // if need to close message box after clicking this button, close it:
                     if (option.Callback == null || option.Callback())
                     {
-                        // remove fader and msg box panel
-                        if (fader != null) { fader.RemoveFromParent(); }
-                        panel.RemoveFromParent();
-
-                        // decrease msg boxes count
-                        OpenedMsgBoxesCount--;
-
-                        // call on-done callback
-                        onDone?.Invoke();
+                        ret.Close();
                     }
                 };
 
@@ -188,16 +220,8 @@ namespace GeonBit.UI.Utils
                 buttonsPanel.AddChild(button);
             }
 
-            // add panel to given parent
-            if (parent != null)
-            {
-                parent.AddChild(panel);
-            }
-            // add panel to active ui root
-            else
-            {
-                UserInterface.Active.AddEntity(panel);
-            }
+            ret.Parent = parent;
+
             return ret;
         }
 
@@ -211,12 +235,12 @@ namespace GeonBit.UI.Utils
         /// <param name="extraEntities">Optional array of entities to add to msg box under the text and above the buttons.</param>
         /// <param name="onDone">Optional callback to call when this msgbox closes.</param>
         /// <returns>Message box panel.</returns>
-        public static MessageBoxHandle ShowMsgBox(string header, string text, string closeButtonTxt = null, Vector2? size = null, Entities.Entity[] extraEntities = null, System.Action onDone = null)
+        public static MessageBoxHandle BuildMessageBox(string header, string text, string closeButtonTxt = null, Vector2? size = null, Entities.Entity[] extraEntities = null)
         {
-            return ShowMsgBox(header, text, new MsgBoxOption[]
+            return BuildMessageBox(header, text, new MsgBoxOption[]
             {
                 new MsgBoxOption(closeButtonTxt ?? DefaultOkButtonText, null)
-            }, size: size ?? DefaultMsgBoxSize, extraEntities: extraEntities, onDone: onDone);
+            }, size: size ?? DefaultMsgBoxSize, extraEntities: extraEntities);
         }
     }
 }
