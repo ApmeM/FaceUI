@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>ApmeM</Authors>
+    <Company>ApmeM</Company>
+    <Copyright>Copyright ©  2019</Copyright>
+    <Configurations>Debug;Release</Configurations>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Content\**" />
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="Content\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="Content\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="FaceUI-BridgeNet.nuspec" />
+    <None Remove="FaceUI.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.Portable" Version="3.7.1.189" />
+  </ItemGroup>
+</Project>

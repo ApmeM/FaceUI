@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework> 
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.Content.Pipeline.Portable" version="3.7.1.189" />
+    <PackageReference Include="MonoGame.Framework.Portable" version="3.7.1.189" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\FaceUI\FaceUI.csproj" />
+  </ItemGroup>
+  
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy /y /i  &quot;$(TargetDir)*.dll&quot; &quot;$(SolutionDir)FaceUI\Content\lib&quot;" />
+  </Target>
+</Project>

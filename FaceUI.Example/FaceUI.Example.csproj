@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>ApmeM</Authors>
+    <Company>ApmeM</Company>
+    <Copyright>Copyright ©  2019</Copyright>
+    <TargetFramework>net48</TargetFramework>
+    <ApplicationIcon />
+    <Win32Resource />
+    <OutputType>WinExe</OutputType>
+    <StartupObject />
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Content\example\**" />
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="Content\example\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="Content\example\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FaceUI\FaceUI.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.9" />
+    <PackageReference Include="MonoGame.Framework.Portable" version="3.7.1.189" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" version="3.7.1.189" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="..\FaceUI\Content\FaceUIContent.mgcb" Link="Content\FaceUIContent.mgcb" />
+    <MonoGameContentReference Include=".\Content\Content.mgcb" />
+  </ItemGroup>
+</Project>

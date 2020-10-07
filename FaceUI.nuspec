@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FaceUI</id>
+    <version>1.0.0</version>
+    <title>FaceUI</title>
+    <authors>ApmeM</authors>
+    <owners>ApmeM</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BrainAI is a set of helper classes to add AI to your game.</description>
+    <copyright>Copyright © ApmeM 2019</copyright>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+      </group>
+    </dependencies>
+    <repository type="git" url="https://github.com/ApmeM/BrainAI.git" /> 
+  </metadata>
+  <files>
+    <file src="FaceUI\bin\Debug\netstandard2.0\FaceUI.dll" target="lib\netstandard2.0\"/>
+    <file src="FaceUI\Content\FaceUI\**\*.*" target="content\Content\FaceUI" /> 
+  </files>
+</package>
