@@ -18,5 +18,7 @@
   <files>
     <file src="FaceUI\bin\Debug\netstandard2.0\FaceUI.dll" target="lib\netstandard2.0\"/>
     <file src="FaceUI\Content\FaceUI\**\*.*" target="content\Content\FaceUI" /> 
+    <file src="FaceUI\Content\lib\*.dll" target="content\Content\lib" /> 
+    <file src="FaceUI\Content\FaceUIContent.mgcb" target="content\Content\FaceUIContent.mgcb" /> 
   </files>
 </package>

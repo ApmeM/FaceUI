@@ -20,5 +20,8 @@
   <files>
      <file src="bin\Release\net48\BrainAI.dll" target="lib/net48" />
      <file src="bin\Release\net48\bridge\**\*.*" target="content" /> 
+     <file src="FaceUI\Content\FaceUI\**\*.*" target="content\Content\FaceUI" /> 
+     <file src="FaceUI\Content\lib\*.dll" target="content\Content\lib" /> 
+     <file src="FaceUI\Content\FaceUIContent.mgcb" target="content\Content\FaceUIContent.mgcb" /> 
   </files>
 </package>
