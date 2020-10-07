@@ -44,8 +44,8 @@ jobs:
     - name: Pack with nuget
       run: |
            mkdir ./artifacts
-           nuget pack FaceUI/FaceUI.nuspec -OutputDirectory ./artifacts -Version $Env:GITHUB_REF.substring(11)
-           nuget pack FaceUI/FaceUI-BridgeNet.nuspec -OutputDirectory ./artifacts -Version $Env:GITHUB_REF.substring(11)
+           nuget pack FaceUI.nuspec -OutputDirectory ./artifacts -Version $Env:GITHUB_REF.substring(11)
+           nuget pack FaceUI-BridgeNet.nuspec -OutputDirectory ./artifacts -Version $Env:GITHUB_REF.substring(11)
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>BrainAI-BridgeNet</id>
+    <id>FaceUI-BridgeNet</id>
     <version>1.0.0</version>
-    <title>BrainAI for Bridge.Net</title>
+    <title>FaceUI for Bridge.Net</title>
     <authors>ApmeM</authors>
     <owners>ApmeM</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>BrainAI is a set of helper classes to add AI to your game.</description>
+    <description>FaceUI is a set of helper classes to add UI to your game.</description>
     <copyright>Copyright © ApmeM 2019</copyright>
     <dependencies>
       <group targetFramework="net48">
@@ -15,11 +15,11 @@
         <dependency id="Bridge" version="17.6.0" />
       </group>
     </dependencies>
-    <repository type="git" url="https://github.com/ApmeM/BrainAI.git" />        
+    <repository type="git" url="https://github.com/ApmeM/FaceUI.git" />        
   </metadata>
   <files>
-     <file src="bin\Release\net48\BrainAI.dll" target="lib/net48" />
-     <file src="bin\Release\net48\bridge\**\*.*" target="content" /> 
+     <file src="FaceUI\bin\Release\net48\FaceUI.dll" target="lib/net48" />
+     <file src="FaceUI\bin\Release\net48\bridge\**\*.*" target="content" /> 
      <file src="FaceUI\Content\FaceUI\**\*.*" target="content\Content\FaceUI" /> 
      <file src="FaceUI\Content\lib\*.dll" target="content\Content\lib" /> 
      <file src="FaceUI\Content\FaceUIContent.mgcb" target="content\Content\FaceUIContent.mgcb" /> 

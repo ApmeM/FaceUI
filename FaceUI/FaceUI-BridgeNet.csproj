@@ -7,8 +7,8 @@
     <TargetFramework>net48</TargetFramework>
     <TargetFrameworks>net48</TargetFrameworks> 
     <DefineConstants>Bridge</DefineConstants> 
-    <AssemblyName>BrainAI</AssemblyName> 
-    <RootNamespace>BrainAI</RootNamespace>
+    <AssemblyName>FaceUI</AssemblyName> 
+    <RootNamespace>FaceUI</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="obj\**" />
