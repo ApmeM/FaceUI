@@ -113,7 +113,7 @@ namespace FaceUI
             }
 
             // all other type of enums
-            return Enum.GetName(typeof(TEnum), e).ToLowerInvariant();
+            return Enum.GetName(typeof(TEnum), e).ToLower();
         }
 
         /// <summary>
@@ -282,7 +282,7 @@ namespace FaceUI
             CursorsData = new CursorTextureData[Enum.GetValues(typeof(CursorType)).Length];
             foreach (CursorType cursor in Enum.GetValues(typeof(CursorType)))
             {
-                string cursorName = Enum.GetName(typeof(CursorType), cursor).ToLowerInvariant();
+                string cursorName = Enum.GetName(typeof(CursorType), cursor).ToLower();
                 CursorsData[(int)cursor] = content.Load<CursorTextureData>(_root + "textures/cursor_" + cursorName + "_md");
             }
 
@@ -297,7 +297,7 @@ namespace FaceUI
                 }
 
                 // load panels metadata
-                string skinName = skin.ToString().ToLowerInvariant();
+                string skinName = skin.ToString().ToLower();
                 PanelData[(int)skin] = content.Load<TextureData>(_root + "textures/panel_" + skinName + "_md");
             }
 
@@ -308,7 +308,7 @@ namespace FaceUI
             SliderData = new TextureData[Enum.GetValues(typeof(SliderSkin)).Length];
             foreach (SliderSkin skin in Enum.GetValues(typeof(SliderSkin)))
             {
-                string skinName = skin.ToString().ToLowerInvariant();
+                string skinName = skin.ToString().ToLower();
                 SliderData[(int)skin] = content.Load<TextureData>(_root + "textures/slider_" + skinName + "_md");
             }
 
@@ -324,7 +324,7 @@ namespace FaceUI
             ButtonData = new TextureData[Enum.GetValues(typeof(ButtonSkin)).Length];
             foreach (ButtonSkin skin in Enum.GetValues(typeof(ButtonSkin)))
             {
-                string skinName = skin.ToString().ToLowerInvariant();
+                string skinName = skin.ToString().ToLower();
                 ButtonData[(int)skin] = content.Load<TextureData>(_root + "textures/button_" + skinName + "_md");
             }
 
