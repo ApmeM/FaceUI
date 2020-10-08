@@ -10,8 +10,6 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:..\..\FaceUI.PipelineImporter\bin\Debug\net48\FaceUI.dll
-/reference:..\..\FaceUI.PipelineImporter\bin\Debug\net48\FaceUI.PipelineImporter.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -221,3 +219,4 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:example/warrior_skin.png
+
