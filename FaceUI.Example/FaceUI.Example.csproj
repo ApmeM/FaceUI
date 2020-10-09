@@ -11,11 +11,17 @@
     <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Content\bin\**" />
     <Compile Remove="Content\example\**" />
+    <Compile Remove="Content\obj\**" />
     <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="Content\bin\**" />
     <EmbeddedResource Remove="Content\example\**" />
+    <EmbeddedResource Remove="Content\obj\**" />
     <EmbeddedResource Remove="obj\**" />
+    <None Remove="Content\bin\**" />
     <None Remove="Content\example\**" />
+    <None Remove="Content\obj\**" />
     <None Remove="obj\**" />
   </ItemGroup>
   <ItemGroup>

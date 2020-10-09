@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>FaceUI</id>
+    <id>FaceUI.Content</id>
     <version>1.0.0</version>
-    <title>FaceUI</title>
+    <title>FaceUI.Content</title>
     <authors>ApmeM</authors>
     <owners>ApmeM</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>FaceAI is a set of helper classes to add UI to your game.</description>
+    <description>FaceAI.Content is a set of predefined content objects with default values to work with FaceUI.</description>
     <copyright>Copyright © ApmeM 2019</copyright>
     <dependencies>
       <group targetFramework="netstandard2.0">
@@ -16,6 +16,8 @@
     <repository type="git" url="https://github.com/ApmeM/FaceUI.git" /> 
   </metadata>
   <files>
-    <file src="FaceUI\bin\Release\netstandard2.0\FaceUI.dll" target="lib\netstandard2.0\"/>
+    <file src="FaceUI\Content\FaceUI\**\*.*" target="contentFiles\any\any\Content\FaceUI" /> 
+    <file src="FaceUI\Content\lib\*.dll" target="contentFiles\any\any\Content\lib" /> 
+    <file src="FaceUI\Content\FaceUIContent.mgcb" target="contentFiles\any\any\Content\FaceUIContent.mgcb" /> 
   </files>
 </package>
