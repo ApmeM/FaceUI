@@ -16,8 +16,9 @@
     <repository type="git" url="https://github.com/ApmeM/FaceUI.git" /> 
   </metadata>
   <files>
-    <file src="FaceUI\Content\FaceUI\**\*.*" target="contentFiles\any\any\Content\FaceUI" /> 
-    <file src="FaceUI\Content\lib\*.dll" target="contentFiles\any\any\Content\lib" /> 
-    <file src="FaceUI\Content\FaceUIContent.mgcb" target="contentFiles\any\any\Content\FaceUIContent.mgcb" /> 
+    <file src="FaceUI\Content\FaceUI\**\*.*" target="nugetData\Content\FaceUI" /> 
+    <file src="FaceUI\Content\lib\*.dll" target="nugetData\Content\lib" />                        
+    <file src="FaceUI\Content\FaceUIContent.mgcb" target="nugetData\Content\FaceUIContent.mgcb" />
+    <file src="FaceUI-Content.targets" target="build\FaceUI.Content.targets" /> 
   </files>
 </package>

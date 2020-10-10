@@ -1,0 +1,7 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)\..\nugetData\Content\FaceUIContent.mgcb">
+      <Link>Content\FaceUIContent.mgcb</Link>
+    </MonoGameContentReference>
+  </ItemGroup>
+</Project>
