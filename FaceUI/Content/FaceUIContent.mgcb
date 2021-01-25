@@ -48,446 +48,6 @@
 /processorParam:TextureFormat=Color
 /build:FaceUI/themes/hd/fonts/Regular.spritefont
 
-#begin FaceUI/themes/hd/styles/Button-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Button-Default.xml
-
-#begin FaceUI/themes/hd/styles/Button-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Button-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Button-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Button-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/ButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ButtonParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/ButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/ButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/CheckBox-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/CheckBox-Default.xml
-
-#begin FaceUI/themes/hd/styles/CheckBox-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/CheckBox-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/CheckBox-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/CheckBox-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/CheckBoxParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/CheckBoxParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/CheckBoxParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/CheckBoxParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/CheckBoxParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/CheckBoxParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/ColoredRectangle-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ColoredRectangle-Default.xml
-
-#begin FaceUI/themes/hd/styles/ColoredRectangle-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ColoredRectangle-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/ColoredRectangle-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ColoredRectangle-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/DropDown-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDown-Default.xml
-
-#begin FaceUI/themes/hd/styles/DropDown-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDown-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/DropDown-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDown-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/DropDownParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDownParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/DropDownParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDownParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/DropDownParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDownParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/DropDownSelectedParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDownSelectedParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/DropDownSelectedParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDownSelectedParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/DropDownSelectedParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/DropDownSelectedParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Entity-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Entity-Default.xml
-
-#begin FaceUI/themes/hd/styles/Entity-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Entity-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Entity-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Entity-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/example.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/example.xml
-
-#begin FaceUI/themes/hd/styles/Header-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Header-Default.xml
-
-#begin FaceUI/themes/hd/styles/Header-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Header-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Header-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Header-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/HorizontalLine-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/HorizontalLine-Default.xml
-
-#begin FaceUI/themes/hd/styles/HorizontalLine-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/HorizontalLine-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/HorizontalLine-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/HorizontalLine-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Icon-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Icon-Default.xml
-
-#begin FaceUI/themes/hd/styles/Icon-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Icon-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Icon-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Icon-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Image-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Image-Default.xml
-
-#begin FaceUI/themes/hd/styles/Image-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Image-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Image-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Image-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Label-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Label-Default.xml
-
-#begin FaceUI/themes/hd/styles/Label-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Label-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Label-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Label-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Panel-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Panel-Default.xml
-
-#begin FaceUI/themes/hd/styles/Panel-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Panel-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Panel-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Panel-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/PanelTabsButton-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/PanelTabsButton-Default.xml
-
-#begin FaceUI/themes/hd/styles/PanelTabsButton-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/PanelTabsButton-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/PanelTabsButton-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/PanelTabsButton-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/PanelTabsButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/PanelTabsButtonParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/PanelTabsButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/PanelTabsButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/PanelTabsButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/PanelTabsButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Paragraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Paragraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/Paragraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Paragraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Paragraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Paragraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/ProgressBar-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ProgressBar-Default.xml
-
-#begin FaceUI/themes/hd/styles/ProgressBar-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ProgressBar-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/ProgressBar-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ProgressBar-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/ProgressBarFill-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ProgressBarFill-Default.xml
-
-#begin FaceUI/themes/hd/styles/ProgressBarFill-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ProgressBarFill-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/ProgressBarFill-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/ProgressBarFill-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/RadioButton-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/RadioButton-Default.xml
-
-#begin FaceUI/themes/hd/styles/RadioButton-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/RadioButton-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/RadioButton-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/RadioButton-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/RadioButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/RadioButtonParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/RadioButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/RadioButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/RadioButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/RadioButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/SelectList-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/SelectList-Default.xml
-
-#begin FaceUI/themes/hd/styles/SelectList-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/SelectList-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/SelectList-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/SelectList-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/SelectListParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/SelectListParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/SelectListParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/SelectListParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/SelectListParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/SelectListParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/Slider-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Slider-Default.xml
-
-#begin FaceUI/themes/hd/styles/Slider-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Slider-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/Slider-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/Slider-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/TextInput-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInput-Default.xml
-
-#begin FaceUI/themes/hd/styles/TextInput-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInput-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/TextInput-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInput-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/TextInputParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInputParagraph-Default.xml
-
-#begin FaceUI/themes/hd/styles/TextInputParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInputParagraph-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/TextInputParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInputParagraph-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/TextInputPlaceholder-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInputPlaceholder-Default.xml
-
-#begin FaceUI/themes/hd/styles/TextInputPlaceholder-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInputPlaceholder-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/TextInputPlaceholder-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/TextInputPlaceholder-MouseHover.xml
-
-#begin FaceUI/themes/hd/styles/VerticalScrollbar-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/VerticalScrollbar-Default.xml
-
-#begin FaceUI/themes/hd/styles/VerticalScrollbar-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/VerticalScrollbar-MouseDown.xml
-
-#begin FaceUI/themes/hd/styles/VerticalScrollbar-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/hd/styles/VerticalScrollbar-MouseHover.xml
-
 #begin FaceUI/themes/hd/textures/icons/Apple.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -1632,446 +1192,6 @@
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Color
 /build:FaceUI/themes/lowres/fonts/Regular.spritefont
-
-#begin FaceUI/themes/lowres/styles/Button-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Button-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Button-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Button-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Button-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Button-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/ButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ButtonParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/ButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/ButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/CheckBox-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/CheckBox-Default.xml
-
-#begin FaceUI/themes/lowres/styles/CheckBox-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/CheckBox-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/CheckBox-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/CheckBox-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/CheckBoxParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/CheckBoxParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/CheckBoxParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/CheckBoxParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/CheckBoxParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/CheckBoxParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/ColoredRectangle-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ColoredRectangle-Default.xml
-
-#begin FaceUI/themes/lowres/styles/ColoredRectangle-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ColoredRectangle-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/ColoredRectangle-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ColoredRectangle-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/DropDown-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDown-Default.xml
-
-#begin FaceUI/themes/lowres/styles/DropDown-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDown-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/DropDown-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDown-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/DropDownParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDownParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/DropDownParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDownParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/DropDownParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDownParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/DropDownSelectedParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDownSelectedParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/DropDownSelectedParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDownSelectedParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/DropDownSelectedParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/DropDownSelectedParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Entity-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Entity-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Entity-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Entity-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Entity-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Entity-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/example.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/example.xml
-
-#begin FaceUI/themes/lowres/styles/Header-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Header-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Header-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Header-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Header-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Header-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/HorizontalLine-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/HorizontalLine-Default.xml
-
-#begin FaceUI/themes/lowres/styles/HorizontalLine-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/HorizontalLine-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/HorizontalLine-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/HorizontalLine-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Icon-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Icon-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Icon-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Icon-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Icon-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Icon-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Image-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Image-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Image-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Image-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Image-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Image-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Label-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Label-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Label-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Label-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Label-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Label-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Panel-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Panel-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Panel-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Panel-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Panel-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Panel-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/PanelTabsButton-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/PanelTabsButton-Default.xml
-
-#begin FaceUI/themes/lowres/styles/PanelTabsButton-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/PanelTabsButton-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/PanelTabsButton-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/PanelTabsButton-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/PanelTabsButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/PanelTabsButtonParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/PanelTabsButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/PanelTabsButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/PanelTabsButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/PanelTabsButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Paragraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Paragraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Paragraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Paragraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Paragraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Paragraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/ProgressBar-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ProgressBar-Default.xml
-
-#begin FaceUI/themes/lowres/styles/ProgressBar-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ProgressBar-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/ProgressBar-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ProgressBar-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/ProgressBarFill-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ProgressBarFill-Default.xml
-
-#begin FaceUI/themes/lowres/styles/ProgressBarFill-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ProgressBarFill-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/ProgressBarFill-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/ProgressBarFill-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/RadioButton-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/RadioButton-Default.xml
-
-#begin FaceUI/themes/lowres/styles/RadioButton-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/RadioButton-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/RadioButton-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/RadioButton-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/RadioButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/RadioButtonParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/RadioButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/RadioButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/RadioButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/RadioButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/SelectList-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/SelectList-Default.xml
-
-#begin FaceUI/themes/lowres/styles/SelectList-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/SelectList-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/SelectList-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/SelectList-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/SelectListParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/SelectListParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/SelectListParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/SelectListParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/SelectListParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/SelectListParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/Slider-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Slider-Default.xml
-
-#begin FaceUI/themes/lowres/styles/Slider-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Slider-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/Slider-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/Slider-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/TextInput-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInput-Default.xml
-
-#begin FaceUI/themes/lowres/styles/TextInput-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInput-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/TextInput-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInput-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/TextInputParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInputParagraph-Default.xml
-
-#begin FaceUI/themes/lowres/styles/TextInputParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInputParagraph-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/TextInputParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInputParagraph-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/TextInputPlaceholder-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInputPlaceholder-Default.xml
-
-#begin FaceUI/themes/lowres/styles/TextInputPlaceholder-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInputPlaceholder-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/TextInputPlaceholder-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/TextInputPlaceholder-MouseHover.xml
-
-#begin FaceUI/themes/lowres/styles/VerticalScrollbar-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/VerticalScrollbar-Default.xml
-
-#begin FaceUI/themes/lowres/styles/VerticalScrollbar-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/VerticalScrollbar-MouseDown.xml
-
-#begin FaceUI/themes/lowres/styles/VerticalScrollbar-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/lowres/styles/VerticalScrollbar-MouseHover.xml
 
 #begin FaceUI/themes/lowres/textures/icons/Apple.png
 /importer:TextureImporter
@@ -3230,446 +2350,6 @@
 /processorParam:TextureFormat=Color
 /build:FaceUI/themes/editor/fonts/Regular.spritefont
 
-#begin FaceUI/themes/editor/styles/Button-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Button-Default.xml
-
-#begin FaceUI/themes/editor/styles/Button-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Button-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Button-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Button-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/ButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ButtonParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/ButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/ButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/CheckBox-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/CheckBox-Default.xml
-
-#begin FaceUI/themes/editor/styles/CheckBox-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/CheckBox-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/CheckBox-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/CheckBox-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/CheckBoxParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/CheckBoxParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/CheckBoxParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/CheckBoxParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/CheckBoxParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/CheckBoxParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/ColoredRectangle-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ColoredRectangle-Default.xml
-
-#begin FaceUI/themes/editor/styles/ColoredRectangle-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ColoredRectangle-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/ColoredRectangle-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ColoredRectangle-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/DropDown-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDown-Default.xml
-
-#begin FaceUI/themes/editor/styles/DropDown-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDown-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/DropDown-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDown-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/DropDownParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDownParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/DropDownParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDownParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/DropDownParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDownParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/DropDownSelectedParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDownSelectedParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/DropDownSelectedParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDownSelectedParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/DropDownSelectedParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/DropDownSelectedParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Entity-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Entity-Default.xml
-
-#begin FaceUI/themes/editor/styles/Entity-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Entity-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Entity-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Entity-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/example.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/example.xml
-
-#begin FaceUI/themes/editor/styles/Header-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Header-Default.xml
-
-#begin FaceUI/themes/editor/styles/Header-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Header-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Header-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Header-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/HorizontalLine-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/HorizontalLine-Default.xml
-
-#begin FaceUI/themes/editor/styles/HorizontalLine-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/HorizontalLine-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/HorizontalLine-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/HorizontalLine-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Icon-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Icon-Default.xml
-
-#begin FaceUI/themes/editor/styles/Icon-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Icon-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Icon-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Icon-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Image-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Image-Default.xml
-
-#begin FaceUI/themes/editor/styles/Image-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Image-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Image-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Image-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Label-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Label-Default.xml
-
-#begin FaceUI/themes/editor/styles/Label-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Label-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Label-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Label-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Panel-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Panel-Default.xml
-
-#begin FaceUI/themes/editor/styles/Panel-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Panel-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Panel-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Panel-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/PanelTabsButton-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/PanelTabsButton-Default.xml
-
-#begin FaceUI/themes/editor/styles/PanelTabsButton-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/PanelTabsButton-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/PanelTabsButton-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/PanelTabsButton-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/PanelTabsButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/PanelTabsButtonParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/PanelTabsButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/PanelTabsButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/PanelTabsButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/PanelTabsButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Paragraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Paragraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/Paragraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Paragraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Paragraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Paragraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/ProgressBar-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ProgressBar-Default.xml
-
-#begin FaceUI/themes/editor/styles/ProgressBar-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ProgressBar-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/ProgressBar-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ProgressBar-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/ProgressBarFill-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ProgressBarFill-Default.xml
-
-#begin FaceUI/themes/editor/styles/ProgressBarFill-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ProgressBarFill-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/ProgressBarFill-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/ProgressBarFill-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/RadioButton-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/RadioButton-Default.xml
-
-#begin FaceUI/themes/editor/styles/RadioButton-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/RadioButton-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/RadioButton-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/RadioButton-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/RadioButtonParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/RadioButtonParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/RadioButtonParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/RadioButtonParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/RadioButtonParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/RadioButtonParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/SelectList-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/SelectList-Default.xml
-
-#begin FaceUI/themes/editor/styles/SelectList-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/SelectList-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/SelectList-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/SelectList-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/SelectListParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/SelectListParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/SelectListParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/SelectListParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/SelectListParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/SelectListParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/Slider-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Slider-Default.xml
-
-#begin FaceUI/themes/editor/styles/Slider-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Slider-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/Slider-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/Slider-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/TextInput-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInput-Default.xml
-
-#begin FaceUI/themes/editor/styles/TextInput-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInput-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/TextInput-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInput-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/TextInputParagraph-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInputParagraph-Default.xml
-
-#begin FaceUI/themes/editor/styles/TextInputParagraph-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInputParagraph-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/TextInputParagraph-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInputParagraph-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/TextInputPlaceholder-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInputPlaceholder-Default.xml
-
-#begin FaceUI/themes/editor/styles/TextInputPlaceholder-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInputPlaceholder-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/TextInputPlaceholder-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/TextInputPlaceholder-MouseHover.xml
-
-#begin FaceUI/themes/editor/styles/VerticalScrollbar-Default.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/VerticalScrollbar-Default.xml
-
-#begin FaceUI/themes/editor/styles/VerticalScrollbar-MouseDown.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/VerticalScrollbar-MouseDown.xml
-
-#begin FaceUI/themes/editor/styles/VerticalScrollbar-MouseHover.xml
-/importer:DefaultStylesImporter
-/processor:PassThroughProcessor
-/build:FaceUI/themes/editor/styles/VerticalScrollbar-MouseHover.xml
-
 #begin FaceUI/themes/editor/textures/icons/Apple.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -4781,4 +3461,439 @@
 /importer:XmlImporter
 /processor:PassThroughProcessor
 /build:FaceUI/themes/editor/ThemeData.xml
+
+#begin FaceUI/themes/editor/styles/Button.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Button.xml
+
+#begin FaceUI/themes/editor/styles/ButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/ButtonParagraph.xml
+
+#begin FaceUI/themes/editor/styles/CheckBox.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/CheckBox.xml
+
+#begin FaceUI/themes/editor/styles/CheckBoxParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/CheckBoxParagraph.xml
+
+#begin FaceUI/themes/editor/styles/ColoredRectangle.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/ColoredRectangle.xml
+
+#begin FaceUI/themes/editor/styles/DropDown.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/DropDown.xml
+
+#begin FaceUI/themes/editor/styles/DropDownParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/DropDownParagraph.xml
+
+#begin FaceUI/themes/editor/styles/DropDownSelectedParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/DropDownSelectedParagraph.xml
+
+#begin FaceUI/themes/editor/styles/Entity.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Entity.xml
+
+#begin FaceUI/themes/editor/styles/Header.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Header.xml
+
+#begin FaceUI/themes/editor/styles/HorizontalLine.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/HorizontalLine.xml
+
+#begin FaceUI/themes/editor/styles/Icon.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Icon.xml
+
+#begin FaceUI/themes/editor/styles/Image.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Image.xml
+
+#begin FaceUI/themes/editor/styles/Label.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Label.xml
+
+#begin FaceUI/themes/editor/styles/Panel.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Panel.xml
+
+#begin FaceUI/themes/editor/styles/PanelTabsButton.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/PanelTabsButton.xml
+
+#begin FaceUI/themes/editor/styles/PanelTabsButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/PanelTabsButtonParagraph.xml
+
+#begin FaceUI/themes/editor/styles/Paragraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Paragraph.xml
+
+#begin FaceUI/themes/editor/styles/ProgressBar.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/ProgressBar.xml
+
+#begin FaceUI/themes/editor/styles/ProgressBarFill.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/ProgressBarFill.xml
+
+#begin FaceUI/themes/editor/styles/RadioButton.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/RadioButton.xml
+
+#begin FaceUI/themes/editor/styles/RadioButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/RadioButtonParagraph.xml
+
+#begin FaceUI/themes/editor/styles/SelectList.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/SelectList.xml
+
+#begin FaceUI/themes/editor/styles/SelectListParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/SelectListParagraph.xml
+
+#begin FaceUI/themes/editor/styles/Slider.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/Slider.xml
+
+#begin FaceUI/themes/editor/styles/TextInput.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/TextInput.xml
+
+#begin FaceUI/themes/editor/styles/TextInputParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/TextInputParagraph.xml
+
+#begin FaceUI/themes/editor/styles/TextInputPlaceholder.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/TextInputPlaceholder.xml
+
+#begin FaceUI/themes/editor/styles/VerticalScrollbar.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/editor/styles/VerticalScrollbar.xml
+
+#begin FaceUI/themes/hd/styles/Button.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Button.xml
+
+#begin FaceUI/themes/hd/styles/ButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/ButtonParagraph.xml
+
+#begin FaceUI/themes/hd/styles/CheckBox.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/CheckBox.xml
+
+#begin FaceUI/themes/hd/styles/CheckBoxParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/CheckBoxParagraph.xml
+
+#begin FaceUI/themes/hd/styles/ColoredRectangle.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/ColoredRectangle.xml
+
+#begin FaceUI/themes/hd/styles/DropDown.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/DropDown.xml
+
+#begin FaceUI/themes/hd/styles/DropDownParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/DropDownParagraph.xml
+
+#begin FaceUI/themes/hd/styles/DropDownSelectedParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/DropDownSelectedParagraph.xml
+
+#begin FaceUI/themes/hd/styles/Entity.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Entity.xml
+
+#begin FaceUI/themes/hd/styles/Header.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Header.xml
+
+#begin FaceUI/themes/hd/styles/HorizontalLine.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/HorizontalLine.xml
+
+#begin FaceUI/themes/hd/styles/Icon.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Icon.xml
+
+#begin FaceUI/themes/hd/styles/Image.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Image.xml
+
+#begin FaceUI/themes/hd/styles/Label.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Label.xml
+
+#begin FaceUI/themes/hd/styles/Panel.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Panel.xml
+
+#begin FaceUI/themes/hd/styles/PanelTabsButton.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/PanelTabsButton.xml
+
+#begin FaceUI/themes/hd/styles/PanelTabsButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/PanelTabsButtonParagraph.xml
+
+#begin FaceUI/themes/hd/styles/Paragraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Paragraph.xml
+
+#begin FaceUI/themes/hd/styles/ProgressBar.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/ProgressBar.xml
+
+#begin FaceUI/themes/hd/styles/ProgressBarFill.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/ProgressBarFill.xml
+
+#begin FaceUI/themes/hd/styles/RadioButton.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/RadioButton.xml
+
+#begin FaceUI/themes/hd/styles/RadioButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/RadioButtonParagraph.xml
+
+#begin FaceUI/themes/hd/styles/SelectList.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/SelectList.xml
+
+#begin FaceUI/themes/hd/styles/SelectListParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/SelectListParagraph.xml
+
+#begin FaceUI/themes/hd/styles/Slider.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/Slider.xml
+
+#begin FaceUI/themes/hd/styles/TextInput.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/TextInput.xml
+
+#begin FaceUI/themes/hd/styles/TextInputParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/TextInputParagraph.xml
+
+#begin FaceUI/themes/hd/styles/TextInputPlaceholder.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/TextInputPlaceholder.xml
+
+#begin FaceUI/themes/hd/styles/VerticalScrollbar.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/hd/styles/VerticalScrollbar.xml
+
+#begin FaceUI/themes/lowres/styles/Button.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Button.xml
+
+#begin FaceUI/themes/lowres/styles/ButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/ButtonParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/CheckBox.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/CheckBox.xml
+
+#begin FaceUI/themes/lowres/styles/CheckBoxParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/CheckBoxParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/ColoredRectangle.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/ColoredRectangle.xml
+
+#begin FaceUI/themes/lowres/styles/DropDown.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/DropDown.xml
+
+#begin FaceUI/themes/lowres/styles/DropDownParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/DropDownParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/DropDownSelectedParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/DropDownSelectedParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/Entity.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Entity.xml
+
+#begin FaceUI/themes/lowres/styles/Header.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Header.xml
+
+#begin FaceUI/themes/lowres/styles/HorizontalLine.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/HorizontalLine.xml
+
+#begin FaceUI/themes/lowres/styles/Icon.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Icon.xml
+
+#begin FaceUI/themes/lowres/styles/Image.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Image.xml
+
+#begin FaceUI/themes/lowres/styles/Label.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Label.xml
+
+#begin FaceUI/themes/lowres/styles/Panel.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Panel.xml
+
+#begin FaceUI/themes/lowres/styles/PanelTabsButton.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/PanelTabsButton.xml
+
+#begin FaceUI/themes/lowres/styles/PanelTabsButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/PanelTabsButtonParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/Paragraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Paragraph.xml
+
+#begin FaceUI/themes/lowres/styles/ProgressBar.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/ProgressBar.xml
+
+#begin FaceUI/themes/lowres/styles/ProgressBarFill.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/ProgressBarFill.xml
+
+#begin FaceUI/themes/lowres/styles/RadioButton.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/RadioButton.xml
+
+#begin FaceUI/themes/lowres/styles/RadioButtonParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/RadioButtonParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/SelectList.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/SelectList.xml
+
+#begin FaceUI/themes/lowres/styles/SelectListParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/SelectListParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/Slider.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/Slider.xml
+
+#begin FaceUI/themes/lowres/styles/TextInput.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/TextInput.xml
+
+#begin FaceUI/themes/lowres/styles/TextInputParagraph.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/TextInputParagraph.xml
+
+#begin FaceUI/themes/lowres/styles/TextInputPlaceholder.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/TextInputPlaceholder.xml
+
+#begin FaceUI/themes/lowres/styles/VerticalScrollbar.xml
+/importer:DefaultStylesImporter
+/processor:PassThroughProcessor
+/build:FaceUI/themes/lowres/styles/VerticalScrollbar.xml
 

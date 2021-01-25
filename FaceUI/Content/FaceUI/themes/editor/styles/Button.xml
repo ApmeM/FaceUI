@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:DataTypes="FaceUI.DataTypes">
+  <Asset Type="DataTypes:DefaultStylesList">
+    <Styles>
+      <Item>
+        <State>Default</State>
+        <Scale>2</Scale>
+        <FillColor Null="true" />
+        <OutlineColor Null="true" />
+        <OutlineWidth Null="true" />
+        <ForceAlignCenter Null="true" />
+        <FontStyle Null="true" />
+        <SelectedHighlightColor Null="true" />
+        <ShadowColor Null="true" />
+        <ShadowOffset Null="true" />
+        <Padding Null="true" />
+        <SpaceBefore Null="true" />
+        <SpaceAfter Null="true" />
+        <ShadowScale Null="true" />
+        <DefaultSize>0 60</DefaultSize>
+      </Item>
+      <Item>
+        <State>MouseDown</State>
+        <Scale Null="true" />
+        <FillColor Null="true" />
+        <OutlineColor Null="true" />
+        <OutlineWidth Null="true" />
+        <ForceAlignCenter Null="true" />
+        <FontStyle Null="true" />
+        <SelectedHighlightColor Null="true" />
+        <ShadowColor Null="true" />
+        <ShadowOffset Null="true" />
+        <Padding Null="true" />
+        <SpaceBefore Null="true" />
+        <SpaceAfter Null="true" />
+        <ShadowScale Null="true" />
+        <DefaultSize Null="true" />
+      </Item>
+      <Item>
+        <State>MouseHover</State>
+        <Scale Null="true" />
+        <FillColor Null="true" />
+        <OutlineColor Null="true" />
+        <OutlineWidth Null="true" />
+        <ForceAlignCenter Null="true" />
+        <FontStyle Null="true" />
+        <SelectedHighlightColor Null="true" />
+        <ShadowColor Null="true" />
+        <ShadowOffset Null="true" />
+        <Padding Null="true" />
+        <SpaceBefore Null="true" />
+        <SpaceAfter Null="true" />
+        <ShadowScale Null="true" />
+        <DefaultSize Null="true" />
+      </Item>
+    </Styles>
+  </Asset>
+</XnaContent>

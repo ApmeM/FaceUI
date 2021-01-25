@@ -406,15 +406,11 @@ namespace FaceUI
         {
             // get stylesheet root path (eg everything before the state part)
             string stylesheetBase = themeRoot + "styles/" + entityName;
-
-            // load default styles
-            FillDefaultStyles(ref sheet, EntityState.Default, content.Load<DefaultStyles>(stylesheetBase + "-Default"));
-
-            // load mouse-hover styles
-            FillDefaultStyles(ref sheet, EntityState.MouseHover, content.Load<DefaultStyles>(stylesheetBase + "-MouseHover"));
-
-            // load mouse-down styles
-            FillDefaultStyles(ref sheet, EntityState.MouseDown, content.Load<DefaultStyles>(stylesheetBase + "-MouseDown"));
+            var styles = content.Load<DefaultStylesList>(stylesheetBase);
+            foreach(var style in styles.Styles)
+            {
+                FillDefaultStyles(ref sheet, style.State ?? EntityState.Default, style);
+            }
         }
 
         /// <summary>

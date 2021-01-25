@@ -9,24 +9,32 @@
     using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
     using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate;
 
-    [ContentImporter(".XML", DefaultProcessor = nameof(PassThroughProcessor), DisplayName = "UI style Importer")]
-    public class DefaultStylesImporter : ContentImporter<DefaultStyles>
+    [ContentImporter(".XML", DefaultProcessor = nameof(PassThroughProcessor), DisplayName = "Face UI style Importer")]
+    public class DefaultStylesImporter : ContentImporter<DefaultStylesList>
     {
-        public override DefaultStyles Import(string filename, ContentImporterContext context)
+        public override DefaultStylesList Import(string filename, ContentImporterContext context)
         {
             context.Logger.LogMessage("Importing style file: {0}", filename);
-
-            using(var input = XmlReader.Create(filename))
+            using (var input = XmlReader.Create(filename))
             {
-                return IntermediateSerializer.Deserialize<DefaultStyles>(input, string.Empty);
+                return IntermediateSerializer.Deserialize<DefaultStylesList>(input, string.Empty);
             }
         }
     }
 
     [ContentTypeWriter]
-    public class DefaultStylesWriter : ContentTypeWriter<DefaultStyles>
+    public class DefaultStylesWriter : ContentTypeWriter<DefaultStylesList>
     {
-        protected override void Write(ContentWriter writer, DefaultStyles data)
+        protected override void Write(ContentWriter writer, DefaultStylesList data)
+        {
+            writer.Write(data.Styles?.Length ?? 0);
+            for(var i = 0; i < (data.Styles?.Length ?? 0); i++)
+            {
+                this.Write(writer, data.Styles[i]);
+            }
+        }
+
+        protected void Write(ContentWriter writer, DefaultStyles data)
         {
             writer.Write(data.Scale != null);
             if (data.Scale != null)

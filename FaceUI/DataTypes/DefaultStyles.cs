@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using FaceUI.Entities;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
 namespace FaceUI.DataTypes
@@ -18,6 +19,8 @@ namespace FaceUI.DataTypes
     /// </summary>
     public class DefaultStyles
     {
+        public EntityState? State = null;
+
         // entity scale
         public float? Scale = null;
 
@@ -59,5 +62,10 @@ namespace FaceUI.DataTypes
 
         // default entity size
         public Vector2? DefaultSize = null;
+    }
+
+    public class DefaultStylesList
+    {
+        public DefaultStyles[] Styles;
     }
 }

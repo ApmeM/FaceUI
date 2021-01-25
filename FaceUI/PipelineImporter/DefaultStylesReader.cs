@@ -5,9 +5,24 @@
     using Microsoft.Xna.Framework;
     using Microsoft.Xna.Framework.Content;
 
-    public class DefaultStylesReader: ContentTypeReader<DefaultStyles>
+    public class DefaultStylesReader: ContentTypeReader<DefaultStylesList>
     {
-        protected override DefaultStyles Read(ContentReader reader, DefaultStyles existingInstance)
+        protected override DefaultStylesList Read(ContentReader reader, DefaultStylesList existingInstance)
+        {
+            var result = new DefaultStylesList
+            {
+                Styles = new DefaultStyles[reader.ReadInt32()]
+            };
+
+            for (var i = 0; i < result.Styles.Length; i++)
+            {
+                result.Styles[i] = this.Read(reader);
+            }
+
+            return result;
+        }
+
+        protected DefaultStyles Read(ContentReader reader)
         {
             var result = new DefaultStyles();
             if (reader.ReadBoolean())
